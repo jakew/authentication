@@ -1,6 +1,6 @@
 var express = require('express'),
     app = express(),
-    port = process.env.PORT || 3000,
+    port = process.env.PORT || 80,
     mongoose = require('mongoose'),
     User = require('./api/models/user'),
     bodyParser = require('body-parser');
