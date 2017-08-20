@@ -4,8 +4,9 @@
   "description": "User and session management microservice.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "PORT=3000 nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "jsonwebtoken": "^7.4.3",
+    "jwt-tools": "git+https://git@github.com/jakew/jwt-tools.git",
     "mongoose": "^4.11.7",
     "uuid": "^3.1.0"
   }
